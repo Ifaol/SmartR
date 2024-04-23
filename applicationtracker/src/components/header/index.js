@@ -1,9 +1,8 @@
-
-function App() {
+function Header() {
   return (
     <div className="App">
     </div>
   );
 }
 
-export default App;
+export default Header;
