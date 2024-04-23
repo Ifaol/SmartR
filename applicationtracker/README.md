@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# SmartRecruit: Streamlined Recruitment and Onboarding System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Description
 
-## Available Scripts
+SmartRecruit is a web-based application named "Application Tracker" designed to streamline the recruitment and onboarding process. It provides HR professionals with a centralized dashboard to track job applications, manage candidate information, and efficiently communicate application statuses to candidates.
 
-In the project directory, you can run:
+The SmartRecruit project is part of IE Network Solutions PLC's GIT program on full stack software development, based in Ethiopia.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The primary goal of SmartRecruit is to enhance the recruitment experience by offering key features such as job posting, application management, status tracking, email notifications, basic reporting, application sorting, duplication prevention, user authentication, responsive design, and a user-friendly interface.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Key Features
 
-### `npm test`
+1. Job Posting and Application Submission:
+   - HR professionals can post job openings with essential details like job title, description, and requirements.
+   - Candidates can submit applications by providing contact information and uploading resumes.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Application Management:
+   - Centralized dashboard to view and manage all job applications.
+   - List of submitted applications with candidate details and submission dates.
 
-### `npm run build`
+3. Application Status Tracking:
+   - Simple status tracking system (e.g., "Received," "Under Review," "Interview Scheduled," "Rejected").
+   - Manual status updates as the recruitment process progresses.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Email Notifications:
+   - Automated notifications for application status updates.
+   - Rejection emails sent when applications are marked as "Rejected."
+   - Acceptance emails sent for "Accepted" applications.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+5. Basic Reporting:
+   - Generate reports on application numbers, status distribution, and overall recruitment progress.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+6. Application Sorting:
+   - Sort applications based on criteria like submission date, candidate name, or status.
 
-### `npm run eject`
+7. Application Duplication Prevention:
+   - Check to prevent duplicate applications from the same candidate for the same job.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+8. User Authentication:
+   - Secure access for authorized HR professionals only.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+9. Responsive Design:
+   - Mobile-friendly design for access on various devices.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+10. User-Friendly Interface:
+    - Intuitive interface for easy navigation and minimal learning curve.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Getting Started
 
-## Learn More
+To run the SmartRecruit application locally, follow these steps:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Clone the repository: `git clone https://github.com/Ifaol/smartrecruit.git`
+2. Navigate to the project directory: `cd SmartRecruit`
+3. Install dependencies: `npm install`
+4. Configure the database settings and environment variables.
+5. Start the application: `npm start`
+6. Access the application in your browser at `http://localhost:3000`.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contributing
 
-### Code Splitting
+Contributions to SmartRecruit are welcome! Here are some ways you can contribute:
+- Submit bug reports or feature requests through the issue tracker.
+- Fork the repository and create a pull request with your enhancements.
+- Share feedback and suggestions for improvement.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## License
 
-### Analyzing the Bundle Size
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the `LICENSE.md` file for details.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Acknowledgments
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+SmartRecruit was inspired by the need for an efficient recruitment and onboarding system to simplify HR processes and improve candidate experiences. We thank all contributors and users for their valuable feedback and support.
